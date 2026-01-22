@@ -12,7 +12,7 @@ from scipy.io.wavfile import write
 # ============================================================
 # CONFIGURACIÓN GLOBAL DE CONSTANTES
 # ============================================================
-API_KEY = os.getenv("AAI_API_KEY", "84c9ad4916de45a4a777b1a67088b514")
+API_KEY = os.getenv("AAI_API_KEY", "TU_API_KEY_AQUI")
 # Obtiene la clave API desde la variable de entorno AAI_API_KEY
 # Si no existe, usa valor por defecto "TU_API_KEY_AQUI"
 # ⚠ En producción, nunca usar valores por defecto
